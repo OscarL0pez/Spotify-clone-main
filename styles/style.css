@@ -1,0 +1,155 @@
+/* estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* barra de navegacion */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+}
+
+.navbar .logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000;
+    font-weight: bold;
+}
+
+/* seccion Hero*/
+.hero {
+    background: url('../images/landing.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* parte blanca */
+.whats-on-spotify {
+    text-align: center;
+    padding: 80px 20px;
+    background: #fff;
+}
+
+.whats-on-spotify h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.icono {
+    width: 250px;
+    text-align: center;
+}
+
+.icono img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icono h3 {
+    font-size: 18px;
+    color: #1db954;
+}
+
+.icono p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* parte verde */
+
+footer {
+    background-color: #1DB954;
+    padding: 50px 80px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+
+.letras-verde {
+    max-width: 50%; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.letras-verde p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.letras-verde h2 {
+font-size: 24px;
+font-weight: bold;
+text-decoration: underline;
+margin-bottom: 20px;
+}
+
+
+.image-verde1 img {
+    width: 250px; 
+    height: auto;
+}
+
+.image-verde2 img {
+    width: 60px; 
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 250px;
+    
+ }
+
+
