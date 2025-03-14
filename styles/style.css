@@ -107,7 +107,7 @@ body {
 
 /* parte verde */
 
-footer {
+.verde {
     background-color: #1DB954;
     padding: 50px 80px;
 }
@@ -142,13 +142,12 @@ margin-bottom: 20px;
 .image-verde1 img {
     width: 250px; 
     height: auto;
+    margin:auto;
 }
 
 .image-verde2 img {
     width: 60px; 
-    height: auto;
-    margin-bottom: 10px;
-    margin-right: 250px;
+    margin: auto;
     
  }
 
